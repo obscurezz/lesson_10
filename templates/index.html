@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="static/main.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<pre>
+{% for can in arr %}
+Name: {{can['name']}}
+Position: {{can['position']}}
+Skills: {{can['skills']}}
+{% endfor -%}
+</pre>
+</body>
+</html>

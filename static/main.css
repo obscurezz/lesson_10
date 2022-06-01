@@ -1,0 +1,27 @@
+h1 {
+    border-width: 2px;
+    border-style: double;
+    border-color: darkcyan;
+    background-color: beige;
+    text-decoration: underline;
+    font-family: "Arial";
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    margin-bottom: 2px;
+
+}
+
+pre {
+    border-width: 2px;
+    border-style: double;
+    border-color: darkcyan;
+    background-color: blanchedalmond;
+    font-size: 18px;
+    text-align: -moz-right;
+    color: black;
+}
+
+img {
+    position: center;
+}
