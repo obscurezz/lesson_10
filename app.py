@@ -1,9 +1,10 @@
-from flask import Flask, json, render_template
+from flask import Flask, render_template
+
+from utils import get_from_json
 
 app = Flask(__name__)
 
-with open('candidates.json', encoding='utf-8') as json_file:
-    candidates = json.load(json_file)
+candidates = get_from_json("candidates.json")
 
 
 @app.route("/")
